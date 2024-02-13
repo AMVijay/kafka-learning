@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T13:17:08.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="MVwUsjWNfzuCF_R4QaMK" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T13:19:15.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qZuIm9RmKyAuMufmTbso" version="22.1.15" type="github">
   <diagram name="Page-1" id="kU1RzSAubM-uUq-VUpBr">
     <mxGraphModel dx="746" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,13 +19,13 @@
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-4" target="7bjFHBHAl_Z8WTdsXAMt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-4" value="Producer API" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-4" value="&lt;u&gt;Producer&lt;/u&gt;&lt;br&gt;Send the message to Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="203" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-7" target="7bjFHBHAl_Z8WTdsXAMt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-7" value="Consumer API" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-7" value="&lt;u&gt;Consumer&lt;/u&gt;&lt;br&gt;Read the message from Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="343" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-9" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;rotation=-180;" vertex="1" parent="1">
