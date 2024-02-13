@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T13:19:15.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qZuIm9RmKyAuMufmTbso" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T15:27:12.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0K1W6__MaPbtz8J5u0SX" version="22.1.15" type="github">
   <diagram name="Page-1" id="kU1RzSAubM-uUq-VUpBr">
     <mxGraphModel dx="746" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,23 +16,23 @@
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-3" value="Kafka server 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="281" y="373" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-4" target="7bjFHBHAl_Z8WTdsXAMt-5">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-4" target="7bjFHBHAl_Z8WTdsXAMt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-4" value="&lt;u&gt;Producer&lt;/u&gt;&lt;br&gt;Send the message to Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="203" width="100" height="100" as="geometry" />
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-4" value="&lt;u&gt;Producer&lt;/u&gt;&lt;br&gt;Send the event to Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="203" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-7" target="7bjFHBHAl_Z8WTdsXAMt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-7" value="&lt;u&gt;Consumer&lt;/u&gt;&lt;br&gt;Read the message from Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="343" width="100" height="100" as="geometry" />
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-7" value="&lt;u&gt;Consumer&lt;/u&gt;&lt;br&gt;Read the event from Kafka Topic" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="343" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-9" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="401" y="213" width="30" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-10" value="zoo keeper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="213" width="120" height="60" as="geometry" />
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-10" value="&lt;u&gt;zookeeper&lt;/u&gt;&lt;br&gt;It synchronizes the data across the cluster nodes and keep the same" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="213" width="120" height="77" as="geometry" />
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.498;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-9" target="7bjFHBHAl_Z8WTdsXAMt-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,16 +40,16 @@
             <mxPoint x="410" y="283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-12" value="&lt;u&gt;Event message format&lt;/u&gt;&lt;br&gt;key:&amp;nbsp; &amp;lt;key&amp;gt;&lt;br&gt;value: &amp;lt;value&amp;gt;&lt;br&gt;timestamp: &amp;lt;event timestamp&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-12" value="&lt;u&gt;Event format&lt;/u&gt;&lt;br&gt;key:&amp;nbsp; &amp;lt;key&amp;gt;&lt;br&gt;value: &amp;lt;value&amp;gt;&lt;br&gt;timestamp: &amp;lt;event timestamp&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="150" y="93" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-13" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-13" value="" style="endArrow=none;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="253" as="sourcePoint" />
             <mxPoint x="235" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="7bjFHBHAl_Z8WTdsXAMt-12">
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7bjFHBHAl_Z8WTdsXAMt-24" target="7bjFHBHAl_Z8WTdsXAMt-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="393" as="sourcePoint" />
             <mxPoint x="410" y="273" as="targetPoint" />
@@ -57,6 +57,12 @@
         </mxCell>
         <mxCell id="7bjFHBHAl_Z8WTdsXAMt-15" value="Kafka Architecture Understanding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="220" y="30" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-23" value="event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="186" y="242" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bjFHBHAl_Z8WTdsXAMt-24" value="event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="187" y="380" width="25" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
